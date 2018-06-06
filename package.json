@@ -1,0 +1,36 @@
+{
+  "name": "vuepress-template",
+  "version": "0.0.1",
+  "description": "a template for vuepress",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build -d public docs",
+    "commit": "standard-commit",
+    "release": "standard-version"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.1.2",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@gerhobbelt/markdown-it-footnote": "^3.0.2-3",
+    "image-data-uri": "^1.1.1",
+    "katex": "^0.10.0-rc.1",
+    "markdown-it-texmath": "^0.5.1",
+    "serve": "^10.0.0",
+    "standard-commit": "^0.6.0",
+    "standard-version": "^4.4.0",
+    "vuepress": "^0.14.2",
+    "yorkie": "^2.0.0"
+  },
+  "dependencies": {}
+}

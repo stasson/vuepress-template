@@ -4,6 +4,7 @@ const katex = require('katex')
 const texmath = require('markdown-it-texmath').use(katex)
 
 module.exports = {
+  lineNumbers: true,
   config: md => {
     md.use(footnote)
     md.use(puml)

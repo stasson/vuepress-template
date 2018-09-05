@@ -1,5 +1,5 @@
 ---
-title: Page Title 
+title: Page Title
 lang: en-US
 ---
 
@@ -15,6 +15,14 @@ toto -> tutu
 npm install
 ```
 
+```sh
+npm install
+```
+
+```html
+<div class="aClass" />
+```
+
 ```java
 class Interface {
 
@@ -23,7 +31,13 @@ class Interface {
 
 ```kotlin
 class Interface {
-  
+
+}
+```
+
+```cpp
+class Interface {
+
 }
 ```
 
